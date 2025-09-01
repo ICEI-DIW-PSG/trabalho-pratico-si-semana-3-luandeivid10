@@ -10,17 +10,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Luan Deivid
+- Matricula:904044
+- Proposta de projeto escolhida: Carros
+- Breve descrição sobre seu projeto: Um site sobre carros, seus lançamentos e informações sobre eles
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](public/escopo.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](image.png)
