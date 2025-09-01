@@ -1,12 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Carros</title>
 </head>
+<link rel="stylesheet" href="index.css">
 <body>
-    
+  <header class="header">
+    <div class="logo">SuperCar</div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#modelos">Modelos</a></li>
+        <li><a href="#lancamento">Lançamentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Bem-vindo ao SuperCar</h1>
+        <p>Explore os melhores modelos de carros esportivos e de luxo.</p>
+        <a href="#modelos" class="btn">Ver Modelos</a>
+      </div>
+    </section>
+
+    <section id="modelos" class="modelos">
+      <h2>Nossos Modelos</h2>
+      <div class="grid">
+        <article class="carro">
+          <img src= "Porsche-1.jpg" alt="Speedster X">
+          <h3>Speedster X</h3>
+          <p>Motor V8 500cv, performance máxima.</p>
+        </article>
+        <article class="carro">
+          <img src= "urban.jpg" alt="Urban SUV">
+          <h3>Urban SUV</h3>
+          <p>Conforto e robustez para viagens.</p>
+        </article>
+        <article class="carro">
+          <img src= "eco.jpg" alt="EcoDrive">
+          <h3>EcoDrive</h3>
+          <p>100% elétrico, autonomia de 600km.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="lancamento" class="lancamento">
+      <h2>Lançamento Exclusivo</h2>
+      <div class="destaque">
+        <img src= "gtr.jpeg" alt="Thunder GT">
+        <div class="info">
+          <h3>Thunder GT</h3>
+          <p>700cv, 0-100km/h em 2.9s, design futurista.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="formulario">
+      <h2>Entre em Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg" name="msg"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 SuperCar</p>
+  </footer>
 </body>
 </html>
