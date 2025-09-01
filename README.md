@@ -13,7 +13,7 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Nome:Luan Deivid
 - Matricula:904044
 - Proposta de projeto escolhida: Carros
-- Breve descrição sobre seu projeto: Um site sobre carros, seus lançamentos e informações sobre eles
+- Breve descrição sobre seu projeto: Um site sobre carros, seus lançamentos e informações sobre eles.
 
 
 ## Print do(s) wireframe(s) criado
